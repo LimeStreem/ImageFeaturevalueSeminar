@@ -13,7 +13,7 @@ namespace FeatureValueExperiment
 {
     public class FeatureValueContext
     {
-        public Device device;
+        public Device device { get;private set; }
 
         public FeatureValueContext()
         {
